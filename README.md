@@ -20,7 +20,7 @@ The governing equations form a system of **linear ordinary differential equation
 
 ---
 
-## ⚙️ Governing Equations
+##  Governing Equations
 
 For each gas species \( Q_i \) (He, N₂, H₂, CH₄), the model solves:
 
@@ -32,7 +32,7 @@ The coupled system is implemented explicitly in the code and corresponds to the 
 
 ---
 
-## 🧮 Numerical & Analytic Solution
+##  Numerical & Analytic Solution
 
 - **Numerical integration** is performed using `scipy.integrate.solve_ivp`
 - **Analytic closed-form solutions** are implemented for validation and steady-state analysis
@@ -42,7 +42,7 @@ The model uses **days** as the internal time unit; results are commonly visualiz
 
 ---
 
-## 📊 Outputs & Figures
+##  Outputs & Figures
 
 Running the main script reproduces the following outputs:
 
@@ -57,7 +57,7 @@ All figures are generated automatically using `matplotlib` and `python-ternary`.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Requirements
 - Python ≥ 3.8  
